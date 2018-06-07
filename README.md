@@ -39,27 +39,27 @@ maptalks heat  on webgl
     })
   map.addLayer(layer)
 
-  //移除
+  //remove
 
   map.removeLayer(layer)
 
 
-  //重置数据
+  //reset data
 
   layer.resetData(data2)
 
 
-  //添加数据
+  //add data
 
   layer.addData(data2)
 
 
-//移除数据
+//remove data
 
 layer.removeData(data1);
 
 
-//清除
+// clear
 
 layer.clear()
 
